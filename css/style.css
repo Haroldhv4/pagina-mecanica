@@ -935,7 +935,7 @@ h5 {
 .navbar-b .navbar-brand:before{
 	content: '';
 	position: relative;
-	background: #1a1a1a;
+	background: black;
 	height: 101px;
 	z-index: 997;
 	width: 200px;
