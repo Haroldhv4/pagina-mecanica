@@ -757,7 +757,7 @@ h5 {
 .zr-theme-menu-header-navber-area .nav-top-bar .call-to-action p {
 	margin: 0 0 0 20px;
 	display: inline-block;
-	color: #1a1a1a;
+	color: white;
 	font-size: 15px;
 	font-weight: 500;
 }
@@ -928,13 +928,15 @@ h5 {
 	font-weight: 500;
 	/* z-index: 90; */
 	position:relative;
+	display: flex;
+	align-items: center; 
 }
 
 .navbar-b .navbar-brand:before{
 	content: '';
 	position: relative;
 	background: #1a1a1a;
-	height: 200px;
+	height: 101px;
 	z-index: 997;
 	width: 200px;
 	top: -7px;
@@ -947,7 +949,7 @@ h5 {
 
 .navbar-b .navbar-brand img {
 	width: 200px;
-	top: 87px;
+	top: 0;
 	position: absolute;
 	z-index: 10000;
 	left: 0;
